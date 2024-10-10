@@ -8,8 +8,15 @@ public class Players {
         this.symbol = symbol;
     }
 
-    public void displayInfo() {
-        System.out.print("Name: "+ name + ", \nSymbol: "+ symbol);
-        }
-        
+
+    public String getName(){
+        return this.name;
     }
+
+    public String getSymbol() {
+
+    }
+ }
+
+
+
