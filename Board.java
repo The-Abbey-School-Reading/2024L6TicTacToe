@@ -1,4 +1,8 @@
+import java.util.Scanner;
+
 public class Board {
+    Scanner scnr = new Scanner(System.in);
+    
     public String [][] strArr = new String [3][3];
 
     public Board () {
@@ -9,15 +13,17 @@ public class Board {
         }
     }
 
-    public void printBoard(){
-        for (i = 0;i<3;i++){
-            System.out.print(strArr[i]+" ");
+    public void printBoard() {
+        for (int i = 0;i<3;i++){
+            System.out.print(strArr[i][0]+" "+strArr[i][1]+" "+strArr[i][2]);
         }
     }
 
-    System.put.print("Enter a row number: ");
-    int row
-}
+    System.out.println(" ");
+
+    System.out.println("Enter a row number: ");
+    int row = scnr.nextInt();
+}}
 
 
 
