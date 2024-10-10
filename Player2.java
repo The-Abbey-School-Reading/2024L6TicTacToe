@@ -1,4 +1,4 @@
-public class Player2 extends Players {
+public class Player2
 
 public Player2(String name, char symbol){
     super(name, symbol);

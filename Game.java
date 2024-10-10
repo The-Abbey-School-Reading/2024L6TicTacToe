@@ -6,6 +6,7 @@ public class Game {
         
         Scanner scanner = new Scanner(System.in);
         System.out.print(board);
+        System.out.println()
         scanner.close();
         
         
