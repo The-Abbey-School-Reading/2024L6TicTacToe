@@ -1,6 +1,6 @@
 public class Players {
 
-        Pl
+        Players player1 = new Player
 
 
 
