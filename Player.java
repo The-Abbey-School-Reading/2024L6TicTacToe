@@ -1,6 +1,6 @@
-public class Players {
+public class Player {
 
-        Players player1 = new Player
+        Player player1 = new Player('')
 
 
 
