@@ -13,7 +13,8 @@ public class Players {
         return this.name;
     }
 
-    public String getSymbol() {
+    public String getSymbol(){
+        return this.symbol;
 
     }
  }
