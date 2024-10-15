@@ -11,11 +11,11 @@ public class Player {
 
         //public String getName(){
         //return this.name;
-     //}
+     }
 
         //public String getSymbol(){
       
        //return this.symbol;
 
     //}
- //}
+ 
