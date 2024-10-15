@@ -18,7 +18,7 @@ public class Board {
         }
     }
 
-    public void makeMove(){
+    public void makeMove(int row, int column, char Symbol){
         board[x-1][y-1]
     }
 }
