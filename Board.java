@@ -14,7 +14,7 @@ public class Board {
 
     public void printBoard() {
         for (int i = 0;i<3;i++){
-            System.out.print(strArr[i][0]+" "+strArr[i][1]+" "+strArr[i][2]);
+            System.out.print(strArr[i][0]+" "+strArr[i][1]+" "+strArr[i][2]+\n);
         }
     }
 
