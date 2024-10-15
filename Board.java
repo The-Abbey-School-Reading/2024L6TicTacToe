@@ -1,7 +1,5 @@
-import java.util.Scanner;
 
 public class Board {
-    Scanner scnr = new Scanner(System.in);
     
     public String [][] strArr = new String [3][3];
 
