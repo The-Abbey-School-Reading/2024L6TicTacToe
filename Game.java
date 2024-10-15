@@ -5,12 +5,13 @@ public class Game {
         Board board = new Board();
         board.printBoard();
         
-        Scanner scanner = new Scanner(System.in); //why is there a scanner
+        Scanner scanner = new Scanner(System.in); //why is there a scanner............................
         System.out.println(board);
         
         String PlayerName
-        System.out.println("Enter your name:");
-        PlayerName = Scanner.nextline("")
+        System.out.println("P1--Enter your name:");
+        PlayerName = Scanner.nextline();
+        System.out.println("P2-Enter your Name")
         
         
     }
