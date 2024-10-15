@@ -21,7 +21,7 @@ public class Board {
 
     System.out.println(" ");
 
-    System.out.println("Enter a row number: ");
+    System.out.printf("Enter a row number: ");
     int row = scnr.nextInt();
 }}
 
