@@ -9,5 +9,4 @@ public class InheritancePlayers {
         player2.displayInfo();
 
     }
-
 }
