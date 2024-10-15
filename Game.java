@@ -18,7 +18,7 @@ public class Game {
         Player P2 = new Player(PlayerName,'o');
 
 
-        System.out.println(P1.name+ "enter a row number: ");
+        System.out.println(P1.name+ " enter a row number: ");
         int row = scanner.nextInt();
         
     }
