@@ -5,8 +5,8 @@ public class Game {
         Board board = new Board();
         board.printBoard();
         
-        Scanner scanner = new Scanner(System.in); // why is there a scanner............................heh??? e-eh?!? Nani!? bro??? Issue?
-        System.out.println(board);                                                         //nope
+        Scanner scanner = new Scanner(System.in);
+        System.out.println(board);
         
         String PlayerName;
         
