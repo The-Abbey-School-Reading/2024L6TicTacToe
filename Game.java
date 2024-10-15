@@ -10,7 +10,7 @@ public class Game {
         
         String PlayerName
         System.out.println("Enter your name:");
-        PlayerName = 
+        PlayerName = Scanner.nextline("")
         
         
     }
