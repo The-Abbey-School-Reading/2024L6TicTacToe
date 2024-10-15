@@ -6,7 +6,7 @@ public class Game {
         board.printBoard();
         
         Scanner scanner = new Scanner(System.in);
-        System.out.println(board);
+        board.printBoard();
         
         String PlayerName;
         
