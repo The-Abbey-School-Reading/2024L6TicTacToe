@@ -19,7 +19,7 @@ public class Game {
 
 
         System.out.printf("%s, enter a row number: ", P1);
-        int row = scnr.nextInt();
+        int row = scanner.nextInt();
         
     }
 }
