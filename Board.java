@@ -18,8 +18,6 @@ public class Board {
         }
     }
 
-    //System.out.println(" ");
-
     public makeMove(){
         
     }

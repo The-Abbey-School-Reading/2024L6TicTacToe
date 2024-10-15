@@ -18,14 +18,16 @@ public class Game {
         Player P2 = new Player(PlayerName,'o');
 
         String winner = null;
-        while (winner == null){}
+        while (winner == null){
+                System.out.println(P1.name+ " enter a row number: ");
+                int row = scanner.nextInt();
 
-        System.out.println(P1.name+ " enter a row number: ");
-        int row = scanner.nextInt();
 
+                System.out.println(P1.name+ " enter a column number: ");
+                int column = scanner.nextInt();
+        }
 
-        System.out.println(P1.name+ " enter a column number: ");
-        int column = scanner.nextInt();
+        
         
     }
 }
