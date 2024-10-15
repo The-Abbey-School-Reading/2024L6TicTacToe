@@ -7,7 +7,10 @@ public class Game {
         
         Scanner scanner = new Scanner(System.in); //why is there a scanner
         System.out.println(board);
-        scanner.close();
+        
+        String PlayerName
+        System.out.println("Enter your name:");
+        PlayerName = 
         
         
     }
