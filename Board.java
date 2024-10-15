@@ -1,7 +1,7 @@
 import java.util.Scanner;
 
 public class Board {
-    Scanner scnr = new Scanner(System.in);
+    Scanner scnr = new Scanner(System.in); // why is there a scanner
     
     public String [][] strArr = new String [3][3];
 
