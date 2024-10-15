@@ -10,8 +10,10 @@ public class Game {
         
         String PlayerName
         System.out.println("P1--Enter your name:");
-        PlayerName = Scanner.nextline();
-        System.out.println("P2-Enter your Name")
+        PlayerName = scanner.nextline();
+        Player
+        System.out.println("P2-Enter your name:");
+        PlayerName = scanner.nextline();
         
         
     }
