@@ -5,15 +5,15 @@ public class Game {
         Board board = new Board();
         board.printBoard();
         
-        Scanner scanner = new Scanner(System.in); //why is there a scanner............................
+        Scanner scanner = new Scanner(System.in); //why is there a scanner............................heh???
         System.out.println(board);
         
         String PlayerName;
         System.out.println("P1--Enter your name:");
-        PlayerName = scanner.nextline();
+        PlayerName = scanner.nextLine();
         Player P1 = new Player(PlayerName,'x');
         System.out.println("P2-Enter your name:");
-        PlayerName = scanner.nextline();
+        PlayerName = scanner.nextLine();
         Player P2 = new Player(PlayerName, 'o');
         
     }
