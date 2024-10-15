@@ -9,6 +9,7 @@ public class Board {
         for ( int j =  0; j < 3; j++) {
             strArr[i][j] =  "-";
         }
+      }
     }
 
     public void printBoard() {
@@ -20,7 +21,7 @@ public class Board {
     System.out.println(" ");
 
     
-}}
+}
 
 
 
