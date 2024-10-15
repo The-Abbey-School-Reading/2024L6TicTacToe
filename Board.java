@@ -18,8 +18,8 @@ public class Board {
         }
     }
 
-    public makeMove(){
-        
+    public void makeMove(){
+        board[x-1][y-1]
     }
 }
 
