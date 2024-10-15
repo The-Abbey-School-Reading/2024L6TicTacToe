@@ -20,7 +20,9 @@ public class Board {
 
     //System.out.println(" ");
 
-    public 
+    public makeMove(){
+        
+    }
 }
 
 
