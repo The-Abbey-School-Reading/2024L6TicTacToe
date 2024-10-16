@@ -19,7 +19,7 @@ public class Board {
     }
 
     public boolean makeMove(int row, int column, char Symbol){
-        if (board[row-1][column-1] == "-") {      // dion updated this section 16/10
+        if (board[row-1][column-1] == "-") {      // dion updated this section basically i was thinking we could return true and then continue to next round and if false do a while loop until they choose unoccupied coordinates
             board[row-1][column-1] = Symbol;
             return true;
         } else {
