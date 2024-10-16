@@ -18,11 +18,13 @@ public class Board {
         }
     }
 
-    public void makeMove(int row, int column, char Symbol){
-        board[x-1][y-1]=
+    public makeMove(int row, int column, char Symbol){
+        if (board[row-1][column-1] == "-") {      // dion updated this section 16/10
+            board[row-1][column-1] = Symbol;
+            return true;
+        } else {
+            return false; }
         
     }
 }
-
-
 
