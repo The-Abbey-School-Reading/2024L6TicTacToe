@@ -21,6 +21,10 @@ public class Game {
         //while (winner == null){
                 System.out.println(P1.name+ " enter a row number: ");
                 int row = scanner.nextInt();
+                if (board.makeMove(row, column, P1.symbol)){    // dion updated by calling method
+                    board.printBoard();
+                }else{
+                    System.out.println("This spot is already taken. Please try again")}
 
                 System.out.println(P1.name+ " enter a column number: ");
                 int column = scanner.nextInt();
