@@ -24,7 +24,7 @@ public class Game {
                 if (board.makeMove(row, column, P1.symbol)){    // dion updated by calling method
                     board.printBoard();
                 }else{
-                    System.out.println("This spot is already taken. Please try again")}
+                    System.out.println("This spot is already taken. Please try again")}   //d do a while loop here
 
                 System.out.println(P1.name+ " enter a column number: ");
                 int column = scanner.nextInt();
