@@ -17,7 +17,7 @@ public class Board {
             System.out.print(strArr[i][0]+" "+strArr[i][1]+" "+strArr[i][2]+\n);
         }
     }
-
+    // board is the object of Board class - I think you want to change strArr the 2D Array attribute for the class
     public boolean makeMove(int row, int column, char Symbol){
         if (board[row-1][column-1] == "-") {      // dion updated this section basically i was thinking we could return true and then continue to next round and if false do a while loop until they choose unoccupied coordinates
             board[row-1][column-1] = Symbol;
