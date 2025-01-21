@@ -1,9 +1,9 @@
 public class Player {
 
         public String name;
-        public char symbol;
+        public String symbol;
 
-        public Player(String name, char symbol){
+        public Player(String name, String symbol){
         this.name = name;
         this.symbol = symbol;
       }
