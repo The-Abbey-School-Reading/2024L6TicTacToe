@@ -14,7 +14,7 @@ public class Board {
 
     public void printBoard() {
         for (int i = 0; i <3; i++){
-            System.out.print(strArr[i][0]+" "+strArr[i][1]+" "+strArr[i][2]+\n);
+            System.out.print(strArr[i][0]+" "+strArr[i][1]+" "+strArr[i][2]+"\n");
         }
     }
     // board is the object of Board class - I think you want to change strArr the 2D Array attribute for the class
