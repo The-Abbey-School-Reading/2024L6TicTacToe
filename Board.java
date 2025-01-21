@@ -17,24 +17,25 @@ public class Board {
             System.out.print(strArr[i][0]+" "+strArr[i][1]+" "+strArr[i][2]+"\n");
         }
     }
-    public Boolean winner(){
-        for (int i = 0; i <3; i++) {
+    public Boolean winner() {
+        for (int i = 0; i < 3; i++) {
             //check x win
             if (strArr[i][0] == "x" && strArr[i][1] == "x" && strArr[i][2] == "x") {
                 Boolean winner = true;
             }
         }
-        for (int j = 0; j <3; j++) {
+        for (int j = 0; j < 3; j++) {
             if (strArr[0][j] == "x" && strArr[1][j] == "x" && strArr[2][j] == "x") {
                 Boolean winner = true;
             }
         }
-        for (int z = 0; z <3; z++) {
-            if (strArr[z][z] == "x" && strArr[z][z] == "x" && strArr[z][z] == "x"){
+        for (int z = 0; z < 3; z++) {
+            if (strArr[z][z] == "x" && strArr[z][z] == "x" && strArr[z][z] == "x") {
                 Boolean winner = true;
             }
 
-            }
+        }
+    }
 
     // board is the object of Board class - I think you want to change strArr the 2D Array attribute for the class
     public boolean makeMove(int row, int column, String symbol){
